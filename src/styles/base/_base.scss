@@ -3,7 +3,8 @@ html {
 }
 
 body {
-    background: white;
+    color: white;
+    background: #2d2d2d;
     font-family: Helvetica, Arial, sans-serif;
     font-size: $m-size;
 }
@@ -14,4 +15,12 @@ button {
 
 button:disabled {
     cursor: default;
+}
+
+a {
+    color: #abffbd;
+
+    &.is-active {
+        font-weight: bold;
+    }
 }
