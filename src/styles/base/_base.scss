@@ -3,8 +3,8 @@ html {
 }
 
 body {
-    color: white;
-    background: #2d2d2d;
+    // color: white;
+    // background: #2d2d2d;
     font-family: Helvetica, Arial, sans-serif;
     font-size: $m-size;
 }
@@ -18,7 +18,7 @@ button:disabled {
 }
 
 a {
-    color: #abffbd;
+    // color: #abffbd;
 
     &.is-active {
         font-weight: bold;
