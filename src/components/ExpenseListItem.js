@@ -1,6 +1,7 @@
 import React from "react";
 import { connect } from "react-redux";
 import { removeExpense } from "../actions/expenses";
+// console.log(now.format("MMM Do, YYYY"));
 
 const ExpenseListItem = ({ dispatch, id, description, amount, createdAt }) => (
   <div>
