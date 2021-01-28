@@ -2,10 +2,7 @@ import { addExpense, editExpense, removeExpense } from "../../actions/expenses";
 
 test("sould setup remove expense action object", () => {
   const action = removeExpense({ id: "1234d" });
-  expect(action).toEqual({
-    type: "REMOVE_EXPENSE",
-    id: "1234d",
-  });
+  expect(action).toEqual({ type: "REMOVE_EXPENSE", id: "1234d" });
 });
 
 test("should setup edit expense action object", () => {
@@ -13,9 +10,7 @@ test("should setup edit expense action object", () => {
   expect(action).toEqual({
     type: "EDIT_EXPENSE",
     id: "1234d",
-    updates: {
-      note: "New note value",
-    },
+    updates: { note: "New note value" },
   });
 });
 
